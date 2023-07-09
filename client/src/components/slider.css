@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.slider{
+    height: 550px;
+    width: 85vw;
+    margin: auto -130px;
+    position: relative;
+    overflow: hidden;
+    box-shadow:  5px 5px 8px rgb(83, 83, 87), 10px 10px 8px rgb(207, 191, 191), 15px 15px 8px rgb(196, 200, 196);
+    border-radius: 7px;
+    
+}
+.img{
+    height: 80%;
+    width: 150%;
+    object-fit: contain;
+    cursor: pointer;
+}
+.title{
+    text-align: center;
+    align-items: center;
+}
+  
